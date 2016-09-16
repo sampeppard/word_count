@@ -42,6 +42,25 @@
 
         }
 
+        function test_CountThreeWords() {
+
+            // Arrange
+            $test_score = 0;
+            $expected_output = 3;
+            $repeat_counter_test_three = new RepeatCounter;
+            $test_word = "Apple";
+            $test_string = "The apple pie comes from an apple picked fresh from an apple tree.";
+
+            // Act
+            $test_result = $repeat_counter_test_three->CountRepeats($test_word, $test_string);
+            //$test_result = $scrabble_score_test_instance->calcScore();
+
+            // Assert
+            $this->assertEquals($expected_output, $test_result);
+
+
+        }
+
     }
 
 ?>
