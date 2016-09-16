@@ -2,10 +2,14 @@
 
     class RepeatCounter {
 
-        public $word_count;
+        private $word_count;
 
         function __construct() {
             $this->word_count = 0;
+        }
+
+        function getWordCount() {
+            return $this->getWordCount;
         }
 
         function CountRepeats($input_word, $input_string) {
