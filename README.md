@@ -1,24 +1,21 @@
 # Word Frequency Generator
 
-an app that returns the frequency count of a given word given a string, built with PHP, Silex, PHPUnit, Twig and Bootstrap
-
-### By **Samuel Peppard**
+a project built with PHP, Silex, PHPUnit, Twig and Bootstrap
+#
+##### By [Sam Peppard](https://github.com/sampeppard)
+#
+![screenshot of project main page](web/images/demo-screenshot.jpg)
 
 ## Description
 
 An app that returns the frequency count of a given word given a string
 
-## Specifications
-
-#### 1. Return false for non-alphabetical characters
-
-* Example Input: 123
-* Example Output: False
-
-#### 2. Return number of instances of an input word that appears in a given string
-
-* Example Input: apple, "The apple grows on the apple tree."
-* Example Output: 2
+----
+### **Specifications**
+| _Behavior_ | _Input_ | _Output_ |
+|:---------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
+| Return false for non-alphabetical characters | 123 | False |
+| Return number of instances of an input word that appears in a given string | apple, "The apple grows on the apple tree." | 2 |
 
 ## Setup/Installation Requirements
 
@@ -36,13 +33,16 @@ For comments or questions, please email sampeppard@gmail.com
 
 ## Technologies Used
 
-HTML
-CSS
-PHP
-PHPUnit
-Silex
-Twig
-Bootstrap version 3.3.7.
+* HTML
+* CSS
+* PHP
+* PHPUnit
+* Silex
+* Twig
+* Bootstrap version 3.3.7.
+
+----
+## Heroku Link
 
 ### License
 

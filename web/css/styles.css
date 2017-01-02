@@ -1,0 +1,24 @@
+body {
+    font-family: 'Electrolize', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: darkgreen;
+    color: #f4f4f4;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: darkgreen;
+    color: #f4f4f4;
+}
