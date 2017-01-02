@@ -1,4 +1,4 @@
-# Word Frequency Generator
+# W0rd C0unt
 
 a project built with PHP, Silex, PHPUnit, Twig and Bootstrap
 #
