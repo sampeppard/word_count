@@ -44,6 +44,8 @@ For comments or questions, please email sampeppard@gmail.com
 ----
 ## Heroku Link
 
+https://sp-word-count.herokuapp.com/
+
 ### License
 
 *This application is licensed under the MIT license*
